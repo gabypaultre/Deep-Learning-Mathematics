@@ -2,56 +2,65 @@
 
 ## Introduction
 
-Bienvenue dans ce projet issu de ma formation en Deep Learning appliquée aux mathématiques. Après avoir suivi la formation proposée par la chaîne YouTube **Machine Learnia**, j'ai reproduit les concepts abordés à travers des démonstrations mathématiques et des implémentations pratiques. 
+Bienvenue dans ce projet issu de ma formation en Deep Learning appliqué aux mathématiques. Cette formation, proposée par la chaîne YouTube **Machine Learnia**, m’a permis d’acquérir une compréhension approfondie des concepts fondamentaux du Deep Learning. À travers des démonstrations mathématiques et des implémentations pratiques, j'ai exploré les bases du Deep Learning, du perceptron aux réseaux de neurones complexes.
 
-Cette formation m'a permis de comprendre en profondeur les bases du Deep Learning, allant des modèles simples comme le perceptron à des réseaux de neurones complexes avec plusieurs couches.
+## Objectifs de la formation
 
-### Programme de la formation
+L'objectif principal de cette formation est de comprendre et de maîtriser les concepts mathématiques derrière les modèles de Deep Learning. Voici les étapes clés abordées tout au long de la formation :
 
-1. **Le perceptron simple** :
- - Écriture et compréhension des formules mathématiques.
- - Calcul de la performance avec la fonction coût (Log Loss).
- - Entraînement avec la descente de gradient.
- - Implémentation à l'aide de Numpy et manipulation de matrices.
+1. **Le perceptron simple**  
+   - Définition des formules mathématiques du perceptron.
+   - Calcul de la performance avec la fonction coût (Log Loss).
+   - Entraînement à l'aide de la descente de gradient.
+   - Implémentation avec Numpy et manipulation des matrices.
 
-2. **Extension au réseau de neurones** :
- - Construction d'un réseau de neurones avec plusieurs perceptrons.
- - Programmation de la Forward Propagation et Back Propagation.
- - Démonstrations mathématiques et calcul des gradients.
+2. **Extension au réseau de neurones**  
+   - Construction d’un réseau de neurones avec plusieurs perceptrons.
+   - Programmation de la propagation avant (Forward Propagation) et de la rétropropagation (Back Propagation).
+   - Calcul des gradients et démonstrations mathématiques associées.
 
-3. **Ajout de complexité au réseau** :
- - Ajout de neurones et de couches dans le réseau.
- - Introduction et implémentation de différentes fonctions d'activation :
- - Tangente Hyperbolique.
- - ReLU.
- - Softmax.
- - Optimisation et amélioration du code pour permettre la création de réseaux génériques.
+3. **Ajout de complexité au réseau**  
+   - Ajout de neurones et de couches supplémentaires.
+   - Introduction et implémentation des fonctions d'activation :
+     - Tangente hyperbolique (Tanh).
+     - ReLU (Rectified Linear Unit).
+     - Softmax.
+   - Optimisation du code pour créer des réseaux de neurones plus flexibles.
 
-Cette approche progressive suit naturellement l’histoire et la pédagogie expliquées dans la formation **Machine Learnia**.
+Cette approche progressive suit les étapes pédagogiques proposées par **Machine Learnia**, permettant une assimilation complète des concepts.
 
----
+## Contenu du dépôt
 
-## Contenu du Dépôt
-
-Ce dépôt contient les fichiers suivants :
+Ce dépôt contient les éléments suivants :
 
 ### Jupyter Notebooks
 
-1. **[01 - Création d'un 1er neurone.ipynb](./01%20-%20Création%20d'un%201er%20neurone.ipynb)** 
- Implémentation d'un perceptron simple avec calcul de la fonction coût et entraînement via descente de gradient.
+- **[01 - Création d'un premier neurone.ipynb](./01%20-%20Création%20d'un%201er%20neurone.ipynb)**  
+  Implémentation d’un perceptron simple, calcul de la fonction coût et entraînement via la descente de gradient.
 
-2. **[02 - 1er neurone appliqué chat VS chien.ipynb](./02%20-%201er%20neurone%20appliqué%20chat%20VS%20chien.ipynb)** 
- Exemple pratique : classification binaire entre "chat" et "chien" avec un perceptron.
+- **[02 - 1er neurone appliqué chat VS chien.ipynb](./02%20-%201er%20neurone%20appliqué%20chat%20VS%20chien.ipynb)**  
+  Application pratique : classification binaire "chat" vs "chien" avec un perceptron.
 
-3. **[03 - Réseau de neurones à 2 couches.ipynb](./03%20-%20Réseau%20de%20neurones%20à%202%20couches.ipynb)** 
- Introduction à un réseau de neurones à deux couches avec démonstrations de Forward et Back Propagation.
+- **[03 - Réseau de neurones à 2 couches.ipynb](./03%20-%20Réseau%20de%20neurones%20à%202%20couches.ipynb)**  
+  Introduction à un réseau de neurones à deux couches avec les algorithmes de Forward Propagation et Back Propagation.
 
-4. **[04 - Réseau de neurones profond.ipynb](./04%20-%20Réseau%20de%20neurones%20profond.ipynb)** 
- Construction d'un réseau de neurones profond avec plusieurs couches et fonctions d'activation avancées.
+- **[04 - Réseau de neurones profond.ipynb](./04%20-%20Réseau%20de%20neurones%20profond.ipynb)**  
+  Construction d’un réseau de neurones profond avec plusieurs couches et utilisation de fonctions d'activation avancées.
 
-### Autres Fichiers
+### Autres fichiers
 
-- **[README.md](./README.md)** : Ce fichier, pour une description complète de la formation et des fichiers inclus.
-- **[testset.hdf5](./testset.hdf5)** : Jeu de données de test pour l'évaluation des modèles.
-- **[trainset.hdf5](./trainset.hdf5)** : Jeu de données d'entraînement pour l'entraînement des modèles.
-- **[utilities.py](./utilities.py)** : Fonctions utilitaires pour l'entraînement et l'évaluation des modèles.
+- **[README.md](./README.md)**  
+  Ce fichier, contenant une description complète de la formation et des fichiers inclus.
+
+- **[testset.hdf5](./testset.hdf5)**  
+  Jeu de données pour l’évaluation des modèles de Deep Learning.
+
+- **[trainset.hdf5](./trainset.hdf5)**  
+  Jeu de données d’entraînement utilisé pour l'apprentissage des modèles.
+
+- **[utilities.py](./utilities.py)**  
+  Fonctions utilitaires pour l’entraînement et l’évaluation des modèles.
+
+---
+
+Cette structure vous permettra de suivre un apprentissage progressif et structuré du Deep Learning appliqué aux mathématiques.
