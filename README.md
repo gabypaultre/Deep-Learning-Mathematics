@@ -1,4 +1,4 @@
-# Formation en Deep Learning Appliquée aux Mathématiques
+# Formation en Deep Learning appliquée aux mathématiques
 
 ## Introduction
 
@@ -6,20 +6,20 @@ Bienvenue dans ce projet issu de ma formation en Deep Learning appliquée aux ma
 
 Cette formation m'a permis de comprendre en profondeur les bases du Deep Learning, allant des modèles simples comme le perceptron à des réseaux de neurones complexes avec plusieurs couches.
 
-### Programme de la Formation
+### Programme de la formation
 
-1. **Le Perceptron Simple** :
+1. **Le perceptron simple** :
  - Écriture et compréhension des formules mathématiques.
  - Calcul de la performance avec la fonction coût (Log Loss).
- - Entraînement avec la descente de Gradient.
+ - Entraînement avec la descente de gradient.
  - Implémentation à l'aide de Numpy et manipulation de matrices.
 
-2. **Extension au Réseau de Neurones** :
- - Construction d'un réseau de neurones avec plusieurs Perceptrons.
+2. **Extension au réseau de neurones** :
+ - Construction d'un réseau de neurones avec plusieurs perceptrons.
  - Programmation de la Forward Propagation et Back Propagation.
  - Démonstrations mathématiques et calcul des gradients.
 
-3. **Ajout de Complexité au Réseau** :
+3. **Ajout de complexité au réseau** :
  - Ajout de neurones et de couches dans le réseau.
  - Introduction et implémentation de différentes fonctions d'activation :
  - Tangente Hyperbolique.
