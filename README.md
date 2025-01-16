@@ -1,4 +1,4 @@
-# Formation en Deep Learning appliquée aux mathématiques
+# Formation Deep Learning appliquée aux mathématiques
 
 ## Introduction
 
